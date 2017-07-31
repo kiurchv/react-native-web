@@ -74,9 +74,8 @@ class Modal extends Component {
       >
         <View>
           <StyleComponent />
-          <TransitionGroup 
+          <TransitionGroup
             classNames={animationType}
-            component="div"
             enter={animationType !== 'none'}
             exit={animationType !== 'none'}
           >
@@ -91,12 +90,12 @@ class Modal extends Component {
 
 const styles = StyleSheet.create({
   modalContent: {
-    flexDirection: 'column', 
-    display: 'flex', 
-    position: 'fixed', 
-    top: 0, 
-    left: 0, 
-    bottom: 0, 
+    flexDirection: 'column',
+    display: 'flex',
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    bottom: 0,
     right: 0
   },
   transparent:{
